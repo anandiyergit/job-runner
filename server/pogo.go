@@ -10,6 +10,7 @@ type Job struct {
 	name     string
 	scm      *Scm
 	duration time.Duration
+	time     time.Time
 }
 
 type JobStore struct {
